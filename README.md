@@ -8,3 +8,9 @@
 
 ### Memoria dinamica
     - Arrays de forma dinamica
+### Recursividad 
+    - Se amnda a llamar asi mismo 
+    - Necesita una sentacia de paro
+    - El problema se va reduciendo
+    - Divide el problema de forma mas sencilla
+    - (n-1)

@@ -5,7 +5,7 @@ const bajaEscalera = (escalon) => {
     console.log('Escalera con', escalon);
     // caso base - sabemos que es el ulitmo y que termina
    
-   if(escalon < 0){
+   if(escalon > 0){
     if( escalon === 0 ){
         console.log('Se termino la escalera');
         return

@@ -4,6 +4,7 @@
 ### Ordenamiento de datos con la funcion sort de JS
 
 ###  Fill method of arrays - Sirve para llenar un array por sus elementos
+ - El array method some, sirve para encontrar un elemento dentro de una propiedad que esta dentro de un array de objetos
 ###  FillDestructuring, crea una copia de un array o de un objeto
 
 ### Memoria dinamica

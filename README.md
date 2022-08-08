@@ -15,3 +15,20 @@
     - El problema se va reduciendo
     - Divide el problema de forma mas sencilla
     - (n-1)
+
+### Ejercicios
+    - Torres de hanoi
+
+### Listas enlazadas
+    - Son una coleccionde de elementos, que van enlazdos
+    - Se contienen dentro de una nodo y cada nodo va conectado con el nodo siguiente (Enlaces o referencias)
+    - Trabajan con memoria dinamica
+    - Metodos de las listas enlazadas
+    - Inicializacion de las listas
+    - Insertar elementos
+    - Encontrar elementos
+    - Comprobar si la lista tiene elementos
+    - Listas siemples enlazadas
+    - Listas doblemente enlazadas
+    - Listas Circular simplemente enlazdas
+    - Listas circular doblemente enlazadas

@@ -9,10 +9,34 @@
 </head>
 <body>
     <header class="header">
-        <h1> Estructura de datos </h1>
+        <h1> JavaScript  </h1>
     </header>
 
     <main  class="main" >
+        
+        <h2> Conceptos basicos de JS </h2>
+
+        <article>
+            <header>
+                <h3> Variables </h3>
+            </header>
+            <section>
+                <strong> const </strong>   
+                <p>
+                    Una variable declarada como const no puede ser reasignada, amenos de que se guarde un objecto 
+                </p>
+            </section>
+            <section>
+                <strong> let </strong>
+                <p> let solo se puede declarar en un scope y solo es accesible desde ese scope </p>
+            </section>
+
+            <section>
+                <strong> var </strong>
+                <p> Es una variable global que puede ser accesible de distintos scopes </p>
+            </section>
+        </article>
+
         <h2> Memoria estatica </h2>
             <ul>
                 <li> Reversa un espacio en la memoria de forma estatica, no se pueden agregar mas elementos de los que se declaran </li>
@@ -27,6 +51,39 @@
                 <li> Necesitan una sentencia de paro </li>
                 <li> Necesita un caso base </li>
             </ul>
+
+
+        <article>
+            <header>
+                <h2> Array methods </h2>
+            </header>
+            <section>
+                <ul>
+                    <li>
+                        Que es un array?  - Es una varibale que agrupa elementos
+                    </li>
+                    <li>
+                        Crear un Array
+                        <code>
+                            const num = [1,2,3];
+                        </code>
+                        <code>
+                            const num1 = new Array('Enero', 'Febrero', 'Marzo');
+                        </code>
+                        <code>
+                            const todo = [1,2,'Juan', { name: 'Maria', edad: 20 }];
+                        </code>
+                    </li>
+
+                    <li>
+                        Agregar elementos a un arreglo
+                        <code>  meses[6] = 'Otro mes' </code>
+                        <code> Para agregar un elemento al final de arreglo se usa la funcion <strong> push </strong> </code>
+                    </li>
+                    <li> <strong> Unshift </strong>  <p> Es una propiedad que inserta al incio del arreglo el elemento que le pasamos a la funcion </p> </li>
+                </ul>
+            </section>
+        </article>
     </main>
 
     <!-- <script src="./js/main.js"></script> -->
@@ -35,5 +92,6 @@
     <!-- <script src="./js/factorialNumber.js" ></script> -->
     <!-- <script src="./js/fibonacci.js"></script> -->
     <!-- <script  src="./js/torreDeHanoi.js" > </script> -->
+    <script  src="./js/arrayMthods.js" ></script>
 </body>
 </html>

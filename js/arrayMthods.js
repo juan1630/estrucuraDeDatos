@@ -21,8 +21,38 @@ meses.push( 'Julio' )
 
 //agregar un elemento al incio del arreglo
 meses.unshift('Un mes nuevo');
+// las funciones que modifican o mutan el arreglo, se les conoce como imperativas, en este paso el PUSH, UNSHIFT, etc.
 
+// funcion declarativa, devuelve un nuevo valor 
+const meses2 = [ ...meses, 'Agosto' ];
+    //copia, valor a agregar
+console.log( meses2 );
+
+//elimina elemento al final del areglo
+meses2.pop();
+
+// elimina elemento al inicio del arreglo
+meses2.shift();
 //iteramos los elementos del arreglo
-for( let i = 0; meses.length > i; i++ ){
-    console.log( meses[i] );
+
+//eleiminamos elementos del arreglo, el primer parametro que recive es el index del elemento que queremos eliminar, el segundo es el numero de elementos a eliminar.
+meses2.splice( 1,1 );
+//Es de forma imperativa
+
+
+const arreglo =  [10,20,30,40,50];
+
+const [ primero, segundo, tercero ] = arreglo;
+const [ primero1,, tercero1 ] = arreglo;
+
+// extraemos solo el tercer numero, sin tener que declarar las demas variables 
+console.log( tercero1, 'tercero1' )
+console.log( primero1, 'primero 1' );
+
+const [ primero2, ...tercero2 ] = arreglo;
+//guarda en la varibale tercero2 todos los elementos que no se han desestructurado
+console.log( tercero2 );
+
+for( let i = 0; meses2.length > i; i++ ){
+    console.log( meses2[i] );
 }

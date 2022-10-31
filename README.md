@@ -15,9 +15,16 @@
 - Eliminar elementos sin importar el index,  **splice** recive por parametro el index y el numero de elementos a eliminar
     - meses2.splice( 1,1 );
 - **Foreach**, es un metodo que sirve para recorrer los arreglos de forma, mas rapida.
+
 - **map** Es uniterador, solo que este regresa un nuevo arreglo con los que se especifica dentro del callback.
+
     - Dentro del callback podemos modificar los elementos de acuerdo a como lo necesitemos.
-    
+
+- **findIndex**  Es un metodo que ayuda a encontar el index de un elemento.
+- **reduce** Se encarga de unir un grupo de valores.
+     - No retorna la suma de los valores
+- **filter** crea un nuevo arreglo con la condicion que se está pasando en el callback
+    - Es muy util a la hora de elimnar los elementos.
 
 ###  FillDestructuring, crea una copia de un array o de un objeto
 

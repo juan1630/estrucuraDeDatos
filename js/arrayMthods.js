@@ -67,21 +67,17 @@ const carrito = [
 
 
 //?forEach
-carrito.forEach( function(elemento) {
-    console.log(elemento);
-});
+//carrito.forEach( function(elemento) {
+//    console.log(elemento);
+//});
 
 //?map
 const carrito2  =carrito.map( (elemento) => {
     return  'El produco:'+ elemento.nombre + ' cuesta ' + elemento.percio; 
 })
-
-
 console.log( carrito2 );
 
-
 //? Array metohd some
-
 //para revisar si una elemento existe, se puede usar el includes 
 
 const exists = meses.includes('Enero');
@@ -103,3 +99,24 @@ console.log({ existe });
 const existe2= meses.some( mes => mes === 'Enero'  );
 
 console.log( existe2 );
+
+//regresa el index del elemento
+const indexAbril = meses.findIndex( mes => mes === 'Abril');
+console.log( indexAbril );
+// Si no encuntra el elemento, devuelve un -1
+// arreglo de objecto
+const indexCarrito = carrito.findIndex( producto => producto.percio == 3000 );
+console.log( indexCarrito );
+
+// si hay 2 objectos con el mimso valor, devuelve el primero valor que encuentra
+
+let resultado;
+ resultado = carrito.reduce( (total, producto) =>  total + producto.percio, 0 );
+console.log({ resultado });
+
+resultado = carrito.filter( producto => producto.percio >= 3000 );
+console.log( {resultado });
+
+
+resultado = carrito.filter( producto => producto.nombre !== 'Pantalla 3' );
+console.log({ resultado });

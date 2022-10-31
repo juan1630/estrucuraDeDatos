@@ -14,6 +14,10 @@
 - Para eliminar el ultimo elemento de un array, se usa el metodo **pop**
 - Eliminar elementos sin importar el index,  **splice** recive por parametro el index y el numero de elementos a eliminar
     - meses2.splice( 1,1 );
+- **Foreach**, es un metodo que sirve para recorrer los arreglos de forma, mas rapida.
+- **map** Es uniterador, solo que este regresa un nuevo arreglo con los que se especifica dentro del callback.
+    - Dentro del callback podemos modificar los elementos de acuerdo a como lo necesitemos.
+    
 
 ###  FillDestructuring, crea una copia de un array o de un objeto
 

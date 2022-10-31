@@ -25,6 +25,11 @@
      - No retorna la suma de los valores
 - **filter** crea un nuevo arreglo con la condicion que se está pasando en el callback
     - Es muy util a la hora de elimnar los elementos.
+**find** Se encarga de buscar un elemento dentro del arreglo y retornalo completamente.
+**every** Es un array method, todos los elementos del arreglo deben de cumplir la condicion del elemento.
+**some** Se encarga de comprobar que almenos uno de los elementos cumpla con una condicion.
+
+**Espread operator** crea una copia del objecto
 
 ###  FillDestructuring, crea una copia de un array o de un objeto
 

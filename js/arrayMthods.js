@@ -1,6 +1,8 @@
 const arr1 = [ 1,2,3,4,5,6,7 ];
 const meses = [ 'Enero', 'Febrero', 'Marzo', 'Abril' ];
-
+const meses3 = ['Mayo', 'Junio', 'Julio'];
+const meses4 = ['Agosto', 'Septiembre', 'Octubre'];
+ 
 const arr2 = [{
     name:'Juan',
     _id:123,
@@ -120,3 +122,34 @@ console.log( {resultado });
 
 resultado = carrito.filter( producto => producto.nombre !== 'Pantalla 3' );
 console.log({ resultado });
+
+resultado = carrito.find( producto =>  producto.nombre === 'Pantalla 1');
+console.log(resultado);
+
+//Verifica que todos los elementos cumplan una condicion
+resultado =carrito.every( producto => producto.percio > 500); 
+console.log({resultado});
+
+// Verifica que almenos uno de los elementos cumpla con la condicion
+resultado = carrito.some(  producto => producto.percio > 10000);
+console.log({resultado});
+
+let mesesConcat;
+
+//concatenamos los arreglos de los meses con ese arreglo
+ mesesConcat = meses.concat( meses3, meses4 , 'Otro mes');
+console.log(mesesConcat);
+// podemos concatener varios elemertos 
+
+//Se pueden unir con el spread operator
+
+mesesConcat = [ ...meses, ...meses3, ...meses4, 'Un mes mas' ];
+console.log( mesesConcat, 'Spread' );
+
+mesesConcat = [ 'Otro mes mas ', ...meses ];
+console.log(mesesConcat)
+
+const nuevoProducto = { nombre: 'Celular', precio : 21000 };
+
+const carrito3 = [ ...carrito, nuevoProducto ];
+console.log( carrito3 );

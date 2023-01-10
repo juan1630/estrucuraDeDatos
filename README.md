@@ -3,8 +3,6 @@
     - Una variable declarada como const, no puede cambiar sus valores salvo los objectos y lo arreglos 
 # Estructura de datos con JS
 
-### Ordenamiento de datos con la funcion sort de JS
-
 ## Array methods
 - Los metodos **push** agrega un elemento al arreglo al final del mismo
 - Los metodos **unshift** agrega un elemento del arrego al inicio del mismo
@@ -42,8 +40,11 @@
     - Divide el problema de forma mas sencilla
     - (n-1)
 
+### Ordenamiento de datos con la funcion sort de JS
 ### Ejercicios
     - Torres de hanoi
+    - Split names
+    - reverse names
 
 ### Listas enlazadas
     - Son una coleccionde de elementos, que van enlazdos
